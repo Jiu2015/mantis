@@ -12,5 +12,5 @@ func sayHello() {
 }
 
 func main() {
-	say_hello()
+	say_hello(name string)
 }

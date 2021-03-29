@@ -2,6 +2,15 @@ package main
 
 import "fmt"
 
-func main(){
-	fmt.Println("This is a test project named mantis")
+// SayHello to mantis
+/*
+ * Use camel case as function name
+ * No published method should start with character in lower case.
+ */
+func sayHello() {
+	fmt.Println("Hello, mantis")
+}
+
+func main() {
+	say_hello(name string)
 }

@@ -2,6 +2,11 @@ package main
 
 import "fmt"
 
-func main(){
-	fmt.Println("This is a test project named mantis")
+// SayHello to mantis
+func say_hello() {
+	fmt.Println("Hello, mantis")
+}
+
+func main() {
+	say_hello()
 }

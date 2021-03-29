@@ -3,7 +3,11 @@ package main
 import "fmt"
 
 // SayHello to mantis
-func say_hello() {
+/*
+ * Use camel case as function name
+ * No published method should start with character in lower case.
+ */
+func sayHello() {
 	fmt.Println("Hello, mantis")
 }
 
